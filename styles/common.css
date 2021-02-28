@@ -9,3 +9,10 @@
 .navbar-collapse{
     flex-grow: unset;
 }
+.modal-footer.signinfooter {
+    justify-content: space-around;
+    border-top: none;
+}
+.notmember{
+    cursor: pointer;
+}

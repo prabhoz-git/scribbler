@@ -92,15 +92,32 @@
             <div class="modal-dialog modal-dialog-centered"">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title">Modal title</h5>
+                        <h5 class="modal-title">Welcome Back!</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        <p>Modal body text goes here.</p>
+                        <form>
+
+                            <div class="mb-3">
+                                <label for="usernamelogin" class="form-label">Username</label>
+                                <input type="text" class="form-control" id="usernamelogin" placeholder="Enter your username" required>
+
+                            </div>
+                            <div class="mb-3">
+                                <label for="pswlogin" class="form-label">Password</label>
+                                <input type="password" class="form-control" id="pswlogin" placeholder="Enter your password" required>
+                            </div>
+
+                            <div class="d-grid gap-2">
+                                <button type="submit" class="btn btn-success">Submit</button>
+                            </div>
+
+                        </form>
                     </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary">Save changes</button>
+                    <div class="modal-footer text-center signinfooter">
+
+                            <p><span class="text-dark">Not a member? </span><span class="text-primary notmember" data-bs-dismiss="modal" aria-label="Close" data-bs-toggle="modal" data-bs-target="#signUp">  Sign Up </span></p>
+
                     </div>
                 </div>
             </div>

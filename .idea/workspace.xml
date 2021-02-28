@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="881edd36-0f9a-43f3-a06f-4ba479301bcc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/scribbler.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/common.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/common.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/postslist.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/postslist.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/common.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +41,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1614468689229</updated>
-      <workItem from="1614468694931" duration="4618000" />
+      <workItem from="1614468694931" duration="5596000" />
     </task>
     <servers />
   </component>
