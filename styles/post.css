@@ -1,0 +1,6 @@
+.editable {
+    border: 1px solid red;
+}
+.notliked{
+    display: none;
+}

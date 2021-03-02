@@ -1,0 +1,12 @@
+body {
+    background-color: #ffeedd;
+}
+.cb-grey {
+    background-color: #e8e8e8;
+}
+.card {flex-direction: unset;max-width: 47%;
+    margin-right: 3%;}
+.card:last-child {
+    margin: auto;
+
+}
