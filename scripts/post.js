@@ -24,11 +24,20 @@ window.postComment=function()
     document.getElementById("comment").value='';
 
 }
-
+var numberOfLikes = 1;
 function updateLike(){
-    let isThumbsUp = document.getElementById('likebtn').classList.contains('fa-thumbs-up');
+
     let likeText = document.getElementById('liketext');
     let likeBtn =  document.getElementById('likebtn');
-      
+    let isThumbsUp = likeBtn.classList.contains('fa-thumbs-up');
+    
+    if (numberOfLikes > 1) {
+        likeText.innerHTML = '<p>' + numberOfLikes + ' persons likes this.</p>';
+    } else {
+    likeText.innerHTML = '<p>' + numberOfLikes + ' people likes this.</p>';
+    }
+    numberOfLikes += 1 ;
+
+
 
 }
