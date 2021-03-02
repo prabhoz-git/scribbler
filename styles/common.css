@@ -16,3 +16,6 @@
 .notmember{
     cursor: pointer;
 }
+body {
+    font-family: 'Ubuntu Mono', monospace;
+}
