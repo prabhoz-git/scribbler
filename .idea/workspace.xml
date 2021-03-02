@@ -5,7 +5,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/post.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/post.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/post.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/post.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/common.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/post.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/post.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +44,7 @@
       <updated>1614468689229</updated>
       <workItem from="1614468694931" duration="8928000" />
       <workItem from="1614590249780" duration="9870000" />
-      <workItem from="1614639879589" duration="11101000" />
+      <workItem from="1614639879589" duration="12403000" />
     </task>
     <servers />
   </component>

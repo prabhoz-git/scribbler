@@ -19,11 +19,13 @@ function myFunction(button) {
 window.postComment=function()
 {
     var div = document.getElementById("comments");
-
-    div.innerHTML = "<p class='indcomment'>"+ document.getElementById("comment").value +'<p>' + div.innerHTML ;
+    var comment = document.getElementById("comment").value;
+    if (comment) {
+    div.innerHTML = "<p class='indcomment'>"+ comment +'<p>' + div.innerHTML ;
     document.getElementById("comment").value='';
     document.getElementById('commentswrapper').classList.add('commentswrapper');
     div.scrollIntoView();
+    }
 
 }
 var numberOfLikes = 1;
