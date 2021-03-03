@@ -35,17 +35,18 @@ let posts = [
 addPostsList();
 function addPostsList() {
     posts.forEach(function(value,index){
-        let template = '<div class="card mb-3 text-center col-md-6 rounded" id = "' + value.id+ '">' +
+        let template = '<div class="card  mb-3 text-center col-md-6 " id = "' + value.id+ '">' +
             ' <div class="row ">' +
-           ' <div class="col-md-2 align-self-center">' +
+           ' <div class="col-md-2 align-self-center authorname">' +
         '<p> ' + value.author+ '</p>' +
         '</div>' +
-        ' <div class="col-md-10 cb-grey">' +
+        ' <div class="col-md-10 cb-grey roundcorners">' +
         '<div class="card-body">' +
 
-        ' <h5 class="card-title">' +value.title+ '</h5>' +
-        '<i class="fas fa-trash" onClick="deletePostsList(' + value.id +') ;"></i>' +
-        '<p class="card-text">' + value.excerpt + ' <i class="fas fa-ellipsis-h" onClick="goTOFullPost(' + value.id +') ;"></i></p>' +
+        ' <div><h5 class="card-title">' +value.title+ '</h5>' +
+        '<i class="fas fa-trash trashicon" onClick="deletePostsList(' + value.id +') ;"></i></div>' +
+        '<div><p class="card-text" >' + value.excerpt + '</p></div>' +
+        ' <p><i class="fas fa-ellipsis-h floatright" onClick="goTOFullPost(' + value.id +') ;"></i></p>' +
 
         '</div>' +
         ' </div>' +
@@ -55,6 +56,7 @@ function addPostsList() {
     });
 
 };
+
 
 function deletePostsList(id) {
         document.getElementById(id).remove();
