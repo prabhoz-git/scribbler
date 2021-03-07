@@ -44,7 +44,7 @@ function addPostsList() {
         '<div class="card-body">' +
 
         ' <div><h5 class="card-title">' +value.title+ '</h5>' +
-        '<i class="fas fa-trash trashicon" onClick="deletePostsList(' + value.id +') ;"></i></div>' +
+        '<i class="fas fa-trash trashicon" data-bs-toggle="modal" data-bs-target="#deletePost" onclick="addPostId(' +value.id + ')"></i></div>' +
         '<div><p class="card-text" >' + value.excerpt + '</p></div>' +
         ' <p><i class="fas fa-ellipsis-h floatright" onClick="goTOFullPost(' + value.id +') ;"></i></p>' +
 
@@ -53,17 +53,26 @@ function addPostsList() {
         ' </div>' +
         '</div>' ;
         document.getElementById('postscard').innerHTML += template ;
+
+
     });
 
 };
 
 
-function deletePostsList(id) {
-        document.getElementById(id).remove();
+
+function addPostId(id) {
+    document.getElementById('yesBtn').innerHTML = '<button type="button" class="btn btn-success" data-bs-dismiss="modal" onClick="deletePostsList(' + id +' ) ;">Yes</button>';
 }
+function deletePostsList(id) {
+
+        document.getElementById(id).remove();
+
+
+};
 function goTOFullPost(id) {
 
     newURL = './post.html';
     location.replace(newURL)
-}
+};
 

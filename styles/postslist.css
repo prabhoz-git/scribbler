@@ -7,6 +7,7 @@ body {
 .card {flex-direction: unset;max-width: 47%;
     margin-right: 3%;
     border-radius: 2.25rem !Important;
+    min-height: 177px;
     }
 .card:last-child {
     margin: auto;
@@ -24,6 +25,8 @@ body {
 .authorname {
     font-size: 22px;
     color: grey;
+    display: flex;
+    justify-content: space-between;
 }
 .card:hover {
     box-shadow: 0 1rem 3rem rgba(0,0,0,.175) !important;
@@ -42,4 +45,20 @@ body {
 .card-title{
     color: grey;
     margin-right: 10px;
+}
+.modal-body{
+    display: inline-flex;
+}
+.noBtn{
+    position: absolute;
+    right:20px;
+}
+.btn{
+    min-width: 80px;
+}
+.modal-header {
+
+    border-bottom: none;
+    justify-content: center;
+
 }
