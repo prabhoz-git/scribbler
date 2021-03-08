@@ -10,7 +10,7 @@ function myFunction(button) {
     } else {
         title.contentEditable = "true";
         description.contentEditable = "true";
-        button.innerHTML = "Save";
+        button.innerHTML = "Save  <i class=\"fa fa-save\"></i>";
         title.classList.add("editable");
         description.classList.add("editable");
     }
@@ -36,9 +36,9 @@ function updateLike(){
     let isThumbsUp = likeBtn.classList.contains('fa-thumbs-up');
 
     if (numberOfLikes > 1) {
-        likeText.innerHTML = '<p>' + numberOfLikes + ' persons likes this!</p>';
+        likeText.innerHTML = '<p>' + numberOfLikes + ' people likes this!</p>';
     } else {
-    likeText.innerHTML = '<p>' + numberOfLikes + ' people likes this!</p>';
+    likeText.innerHTML = '<p>' + numberOfLikes + ' person likes this!</p>';
     }
     likeBtn.innerText = ' Liked';
     numberOfLikes += 1 ;
